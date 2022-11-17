@@ -1,0 +1,352 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "I am on homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1298640400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Mouse over ‘Health Insurance’ under the mega menu",
+            "match": {
+              "location": "HomePageSteps.iMouseOverHealthInsuranceUnderTheMegaMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2070694000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify ‘Get a Quote’ is link to click",
+            "match": {
+              "location": "HomePageSteps.iVerifyGetAQuoteIsLinkToClick()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2066537400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on ‘Get a Quote’ link",
+            "match": {
+              "location": "HomePageSteps.iClickOnGetAQuoteLink()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8606114900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verify the all fields available to enter the data under \u0027quote-your-name\u0027 page",
+        "description": "",
+        "id": "healthinsurance-test;verify-the-all-fields-available-to-enter-the-data-under-\u0027quote-your-name\u0027-page",
+        "after": [
+          {
+            "result": {
+              "duration": 147900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 104000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I reach on \u0027quote-your-name\u0027 page",
+            "match": {
+              "location": "QuoteYourNamePageSteps.iReachOnQuoteYourNamePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142880600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I verify the field \u0027your Title\u0027",
+            "match": {
+              "location": "QuoteYourNamePageSteps.iVerifyTheFieldYourTitle()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 63923100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I verify the \u0027Enter your first name\u0027 field",
+            "match": {
+              "location": "QuoteYourNamePageSteps.iVerifyTheEnterYourFirstNameField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53098300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I verify the \u0027Enter your last name\u0027",
+            "match": {
+              "location": "QuoteYourNamePageSteps.iVerifyTheEnterYourLastName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55879000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I verify the field \"Next\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Next",
+                  "offset": 20
+                }
+              ],
+              "location": "QuoteYourNamePageSteps.iVerifyTheFieldButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2056288600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I verify the text \"View our \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "View our ",
+                  "offset": 19
+                }
+              ],
+              "location": "QuoteYourNamePageSteps.iVerifyTheText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2050058800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I verify the link \"Privacy Information\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Privacy Information",
+                  "offset": 19
+                }
+              ],
+              "location": "QuoteYourNamePageSteps.iVerifyTheLink(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50930900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I verify the textLink \"for details on how we use and protect your data.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "for details on how we use and protect your data.",
+                  "offset": 23
+                }
+              ],
+              "location": "QuoteYourNamePageSteps.iVerifyTheTextLink(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "I am on homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2002834800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Mouse over ‘Health Insurance’ under the mega menu",
+            "match": {
+              "location": "HomePageSteps.iMouseOverHealthInsuranceUnderTheMegaMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2102951800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify ‘Get a Quote’ is link to click",
+            "match": {
+              "location": "HomePageSteps.iVerifyGetAQuoteIsLinkToClick()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2054475100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on ‘Get a Quote’ link",
+            "match": {
+              "location": "HomePageSteps.iClickOnGetAQuoteLink()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4290182300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Fill all the details under the \u0027quote-your-name\u0027 page and click on Next button",
+        "description": "",
+        "id": "healthinsurance-test;fill-all-the-details-under-the-\u0027quote-your-name\u0027-page-and-click-on-next-button",
+        "after": [
+          {
+            "result": {
+              "duration": 54300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 47000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I reach on \u0027quote-your-name\u0027 page",
+            "match": {
+              "location": "QuoteYourNamePageSteps.iReachOnQuoteYourNamePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 270376800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I select the Your title",
+            "match": {
+              "location": "QuoteYourNamePageSteps.iSelectTheYourTitle()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 181501400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter the firstname",
+            "match": {
+              "location": "QuoteYourNamePageSteps.iEnterTheFirstname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153357800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I enter the lastname",
+            "match": {
+              "location": "QuoteYourNamePageSteps.iEnterTheLastname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1708380900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click on Next button",
+            "match": {
+              "location": "QuoteYourNamePageSteps.iClickOnNextButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "HealthInsurance Test",
+    "description": "\r\nAs a,User I would like to visit BupaHealthInsurance website",
+    "id": "healthinsurance-test",
+    "keyword": "Feature",
+    "uri": "HealthInsurance.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@smoke"
+      }
+    ]
+  }
+]
