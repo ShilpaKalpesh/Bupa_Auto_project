@@ -1,9 +1,13 @@
 package uk.co.bupa.pages;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import uk.co.bupa.utility.Utility;
+
+import java.util.List;
 
 
 public class QuoteYourNamePage extends Utility {
@@ -51,6 +55,7 @@ public class QuoteYourNamePage extends Utility {
     @FindBy(name = "Prospect.ApplicantDetails.LastName")
     WebElement yourLastNameField;
 
+
     public String getYourTitle() {
         return yourTitle.getText();
     }
@@ -81,8 +86,8 @@ public class QuoteYourNamePage extends Utility {
         return textLink2.getText();
     }
 
-    public void selectYourTitle(String value){
-       selectByVisibleTextFromDropDown(dropDownMenu,value);
+    public void selectYourTitle(String value) {
+        selectByVisibleTextFromDropDown(dropDownMenu, value);
 
     }
 
@@ -90,11 +95,13 @@ public class QuoteYourNamePage extends Utility {
         sendTextToElement(yourFirstNameField, firstName);
     }
 
-    public void enterYourLastname(String lastName){
-        sendTextToElement(yourLastNameField,lastName);
+    public void enterYourLastname(String lastName) {
+        sendTextToElement(yourLastNameField, lastName);
     }
 
-    public void clickOnNextButton(){
+    public void clickOnNextButton() {
         clickOnElement(nextButton);
     }
+
+
 }

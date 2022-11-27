@@ -1,4 +1,4 @@
-@smoke
+
 Feature:HealthInsurance Test
 
   As a,User I would like to visit BupaHealthInsurance website
@@ -20,9 +20,13 @@ Feature:HealthInsurance Test
     And I verify the textLink "for details on how we use and protect your data."
 
 
-  Scenario:Fill all the details under the 'quote-your-name' page and click on Next button
+@smoke
+  Scenario:Fill all the details under the 'quote-your-name' page and give a quote to customer
     When I reach on 'quote-your-name' page
     And I select the Your title
     And I enter the firstname
     And I enter the lastname
     Then I click on Next button
+    And I reach on Quote cover for customer page successfully
+    And I select the option "Me, my partner and our children" from dropdown menu
+

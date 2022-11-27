@@ -77,4 +77,5 @@ public class QuoteYourNamePageSteps {
     public void iClickOnNextButton() {
         new QuoteYourNamePage().clickOnNextButton();
     }
+
 }
